@@ -119,13 +119,15 @@ if __name__ == '__main__':
                                  variable=counter_direction,
                                  value=1,
                                  bg="#075e94",
-                                 fg="#E0DE16").place(x=200, y=260)
+                                 fg="#E0DE16",
+                                 selectcolor="black").place(x=200, y=260)
     list_descending = Radiobutton(renamer,
                                   text="Descending",
                                   variable=counter_direction,
                                   value=2,
                                   bg="#075e94",
-                                  fg="#E0DE16").place(x=300, y=260)
+                                  fg="#E0DE16",
+                                  selectcolor="black").place(x=300, y=260)
 
     submit_button = Button(renamer,
                            text="Start",
